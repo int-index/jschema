@@ -1,0 +1,8 @@
+resolver: lts-8.13
+packages:
+- '.'
+- location:
+    git: https://github.com/goldfirere/singletons
+    commit: f6516af95f2421f9509abfb992523d430e00b6ad
+  extra-dep: true
+extra-deps: []
